@@ -1,5 +1,5 @@
 // Service worker: всё приложение и зашифрованные данные лежат в кэше — школа открывается без интернета.
-const VERSION = "08ca2edb8389";
+const VERSION = "61b1dfab7174";
 const FILES = ["./","./app.js","./calcs.js","./crypto.js","./manifest.webmanifest","./markdown.js","./progress.js","./index.html","./styles.css","./views.js","./icon-192.png","./icon-512.png","./apple-touch-icon.png","./data.json"];
 const CACHE = "school-" + VERSION;
 
